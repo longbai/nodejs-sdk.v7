@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-sdk.v7",
+  "version": "0.0.1",
+  "description": "Qiniu Resource (Cloud) Storage SDK for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiniu/nodejs-sdk.v7.git"
+  },
+  "keywords": [
+    "qiniu"
+  ],
+  "author": "sdk at qiniu.com",
+  "contributors": [
+    {
+      "name": "Bai Shunlong",
+      "email": ""
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qiniu/nodejs-sdk.v7/issues"
+  },
+  "homepage": "https://github.com/qiniu/nodejs-sdk.v7#readme",
+  "dependencies": {
+    "request": "*"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "ava": "*",
+    "chai": "*",
+    "travis-cov": "*"
+  }
+}
