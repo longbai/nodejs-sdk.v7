@@ -20,3 +20,5 @@ spec-js/
 # Misc
 npm-debug.log
 .DS_STORE
+
+yarn.lock

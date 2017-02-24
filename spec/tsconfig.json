@@ -10,7 +10,7 @@
     "suppressImplicitAnyIndexErrors": true,
     "moduleResolution": "node",
     "target": "es6",
-    "outDir": "dist/js",
+    "outDir": "../dist/js",
     "lib": [
       "es5",
       "es2015.iterable",
@@ -23,6 +23,6 @@
     "tabSize": 4
   },
   "files": [
-    "src/qiniu.ts"
+    "./*/*.ts"
   ]
 }

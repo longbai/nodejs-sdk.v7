@@ -15,7 +15,6 @@ class CdnManager{
      * @link http://developer.qiniu.com/article/fusion/api/refresh.html
      */
     refreshUrls(urls:string[], callback){
-
     }
 
     /**
@@ -25,11 +24,9 @@ class CdnManager{
      * @link http://developer.qiniu.com/article/fusion/api/refresh.html
      */
     refreshDirs(dirs:string[], callback){
-
     }
 
     refreshUrlsAndDirs(urls:string[], dirs:string[], callback){
-
     }
 
     /**
@@ -70,7 +67,6 @@ class CdnManager{
      * 构建标准的基于时间戳的防盗链
      *
      */
-    createTimestampAntiLeechUrl(){}
-          
+    createTimestampAntiLeechUrl() {
     }
 }

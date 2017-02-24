@@ -32,6 +32,8 @@
     "@types/node": "*",
     "ava": "*",
     "chai": "*",
-    "travis-cov": "*"
+    "gaze-run-interrupt": "^1.0.1",
+    "travis-cov": "*",
+    "typescript": "^2.1.5"
   }
 }

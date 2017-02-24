@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var gaze_run_interrupt = require("gaze-run-interrupt");
+
+gaze_run_interrupt("{src,spec}/**/*.ts", [{
+  command: "tsc"
+}, {
+  command: "../../node_modules/.bin/ava",
+  args: ["--reporter", "min"],
+  cwd: "dist/js"
+}]);
